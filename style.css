@@ -11,9 +11,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(-45deg, #2b5876, #4e4376, #2b5876, #4e4376);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  background: url('pinkish.avif') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   padding: 1rem;
 }
@@ -26,9 +25,8 @@ body {
 
 /* Main layout */
 main {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: #f3aad1; /* solid dark background */
+  color: #fff;
   border-radius: 16px;
   padding: 2rem 2.5rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
@@ -39,6 +37,7 @@ main {
   gap: 1rem;
   text-align: center;
 }
+
 
 /* Headings and text */
 h1 {
@@ -69,21 +68,21 @@ h1 {
 }
 
 .highlight {
-  background-color: #ffe082;
+  background-color: #ec85d6;
   color: #000;
   border-radius: 5px;
 }
 
 .error {
-  background-color: #ff8a80 !important;
-  border: 2px solid #ff5252;
+  background-color: #e9968f !important;
+  border: 2px solid #ee8a8a;
 }
 
 /* Message */
 #message {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #c8e6c9;
+  color: #d07cb4;
   min-height: 1.5rem;
 }
 
@@ -113,7 +112,7 @@ input[type="text"]:focus {
 
 button {
   padding: 0.6rem 1.2rem;
-  background-color: #03dac6;
+  background-color: #ef5598;
   border: none;
   border-radius: 8px;
   color: #000;
@@ -123,5 +122,5 @@ button {
 }
 
 button:hover {
-  background-color: #00c4a7;
+  background-color: #ec36b2;
 }
